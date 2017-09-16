@@ -7,7 +7,7 @@
 ## Background
 
 An editor is member of multiple backend user groups with overlapping/duplicates Mounts (Pages, Categories, Files) an see their content multiple times.
-The ugly default solution is to functional groups like `_PagetreeX` and `_PagetreeY` which makes backend user administration more complex.
+The ugly default solution is to use functional groups like `_PagetreeX` and `_PagetreeY` which makes backend user administration more complex.
 
 ## Contribution
 
