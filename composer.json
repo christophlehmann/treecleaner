@@ -1,0 +1,31 @@
+{
+  "name": "christophlehmann/treecleaner",
+  "description": "Hides duplicates in page- and category-tree in the backend; Developed for lighter user management / editors with overlapping mount points; Hopefully core functionality in the future",
+  "keywords": [
+    "duplicate",
+    "mountpoints",
+    "backend",
+    "usermanagement"
+  ],
+  "homepage": "https://github.com/christophlehmann/treecleaner",
+  "authors": [
+    {
+      "name": "Christoph Lehmann",
+      "email": "post@christophlehmann.eu"
+    }
+  ],
+  "type": "typo3-cms-extension",
+  "license": "GPL-3.0",
+  "require": {
+    "typo3/cms": ">=7.6.0 <9.0.0"
+  },
+  "replace": {
+    "treecleaner": "self.version",
+    "typo3-ter/treecleaner": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lemming\\TreeCleaner\\": "Classes/"
+    }
+  }
+}
